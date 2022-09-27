@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">HTTPAPP</string>
+    <string name="hint">input a image url</string>
+    <string name="download">download</string>
+    <string name="description">image</string>
 </resources>

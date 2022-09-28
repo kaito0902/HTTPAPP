@@ -27,13 +27,14 @@ public class MainActivity extends AppCompatActivity {
         etitText = findViewById(R.id.uri);
         imageView = findViewById(R.id.img);
         Button downloadButton = findViewById(R.id.download);
+        // downloadButtonを押下時にeditTextにあるリンクの画像を引数にdownloadImageを呼び出す。
         downloadButton.setOnClickListener(v -> {
             String stringUrl = etitText.getText().toString();
-            dowloadImage(stringUrl);
+            downloadImage(stringUrl);
         });
     }
 
-    private void dowloadImage(String urlSt){
+    private void downloadImage(String urlSt){
         // Singleの別スレッドを立ち上げる
         Executors.newSingleThreadExecutor().execute(() -> {
             try {

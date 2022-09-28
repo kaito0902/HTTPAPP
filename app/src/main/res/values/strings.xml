@@ -3,4 +3,5 @@
     <string name="hint">input a image url</string>
     <string name="download">download</string>
     <string name="description">image</string>
+    <string name="hint_image">https://developer.android.com/images/home/android-p-clear-bg-with-shadow.png?hl=JA</string>
 </resources>
